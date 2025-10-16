@@ -1,12 +1,15 @@
+'use client';
+
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -29,7 +32,7 @@ const Header = () => {
     { path: '/contact', label: t('nav.contact') },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) => pathname === path;
 
   return (
     <header
@@ -40,7 +43,7 @@ const Header = () => {
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
+          <Link href="/" className="flex items-center space-x-2 group">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
               <span className="text-white text-lg font-bold">E</span>
             </div>
@@ -54,7 +57,7 @@ const Header = () => {
             {navLinks.map(link => (
               <Link
                 key={link.path}
-                to={link.path}
+                href={link.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
                     ? 'bg-slate-100 text-slate-900'
@@ -69,7 +72,7 @@ const Header = () => {
           {/* Right Section - Language + CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher />
-            <Link to="/contact" className="btn btn-primary">
+            <Link href="/contact" className="btn btn-primary">
               {t('nav.cta')}
             </Link>
           </div>
@@ -113,7 +116,7 @@ const Header = () => {
             {navLinks.map(link => (
               <Link
                 key={link.path}
-                to={link.path}
+                href={link.path}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
@@ -125,7 +128,7 @@ const Header = () => {
               </Link>
             ))}
             <Link
-              to="/contact"
+              href="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
               className="btn btn-primary mt-4"
             >

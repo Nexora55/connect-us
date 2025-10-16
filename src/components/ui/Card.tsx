@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface CardProps {
   children: React.ReactNode;
@@ -28,7 +30,7 @@ const Card: React.FC<CardProps> = ({
   // Link card
   if (to) {
     return (
-      <Link to={to} className={`${classes} block group cursor-pointer`}>
+      <Link href={to} className={`${classes} block group cursor-pointer`}>
         {children}
       </Link>
     );

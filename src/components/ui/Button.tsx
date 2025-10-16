@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -74,7 +76,7 @@ const Button: React.FC<ButtonProps> = ({
   // Internal link
   if (to) {
     return (
-      <Link to={to} className={classes}>
+      <Link href={to} className={classes}>
         {content}
       </Link>
     );

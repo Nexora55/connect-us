@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -64,7 +66,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-4">
             <Link
-              to="/"
+              href="/"
               className="inline-flex items-center space-x-2 group mb-6"
             >
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
@@ -103,7 +105,7 @@ const Footer = () => {
               {footerLinks.services.map(link => (
                 <li key={link.path}>
                   <Link
-                    to={link.path}
+                    href={link.path}
                     className="text-slate-400 hover:text-primary-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -122,7 +124,7 @@ const Footer = () => {
               {footerLinks.company.map(link => (
                 <li key={link.path}>
                   <Link
-                    to={link.path}
+                    href={link.path}
                     className="text-slate-400 hover:text-primary-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -141,7 +143,7 @@ const Footer = () => {
               {footerLinks.resources.map(link => (
                 <li key={link.path}>
                   <Link
-                    to={link.path}
+                    href={link.path}
                     className="text-slate-400 hover:text-primary-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -182,13 +184,13 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-6">
               <Link
-                to="/privacy"
+                href="/privacy"
                 className="text-slate-400 hover:text-primary-400 transition-colors duration-200 text-sm"
               >
                 {t('footer.privacy')}
               </Link>
               <Link
-                to="/terms"
+                href="/terms"
                 className="text-slate-400 hover:text-primary-400 transition-colors duration-200 text-sm"
               >
                 {t('footer.terms')}
