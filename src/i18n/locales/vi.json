@@ -145,24 +145,372 @@
     "hero": {
       "badge": "Đội ngũ",
       "title": "Gặp gỡ đội ngũ",
-      "titleHighlight": "chuyên gia",
-      "subtitle": "50+ chuyên gia hàng đầu với kinh nghiệm 10+ năm trong công nghệ và quản lý dự án"
+      "titleHighlight": "chuyên gia đẳng cấp quốc tế",
+      "subtitle": "50+ chuyên gia hàng đầu với kinh nghiệm 10+ năm trong công nghệ, quản lý và đổi mới sáng tạo"
     },
     "leadership": {
       "title": "Ban Lãnh Đạo",
-      "subtitle": "Đội ngũ quản lý cấp cao dẫn dắt tầm nhìn và chiến lược"
+      "subtitle": "Những nhà tầm nhìn dẫn dắt chiến lược và tăng trưởng",
+      "ceo": {
+        "name": "David Chen",
+        "role": "CEO & Founder",
+        "bio": "15+ năm xây dựng giải pháp công nghệ quy mô lớn. Cựu VP tại Amazon, CS Stanford."
+      },
+      "cto": {
+        "name": "Sarah Park",
+        "role": "Giám Đốc Công Nghệ",
+        "bio": "Chuyên gia kiến trúc cloud. Cựu Senior Engineer Google, tốt nghiệp MIT."
+      },
+      "coo": {
+        "name": "Michael Torres",
+        "role": "Giám Đốc Vận Hành",
+        "bio": "Chuyên gia xuất sắc về vận hành. Cựu COO tại startup Series B."
+      },
+      "cdo": {
+        "name": "Emily Watson",
+        "role": "Giám Đốc Thiết Kế",
+        "bio": "Nhà thiết kế UX đoạt giải thưởng. Dẫn dắt thiết kế tại Airbnb, MFA RISD."
+      }
     },
     "management": {
-      "title": "Quản Lý Cấp Trung",
-      "subtitle": "Project Managers và Team Leads điều phối dự án"
+      "title": "Quản Lý Dự Án",
+      "subtitle": "Chuyên gia điều phối đảm bảo chất lượng bàn giao",
+      "pm1": {
+        "name": "James Kim",
+        "role": "Senior Project Manager",
+        "bio": "Chứng chỉ Agile/Scrum. 100+ dự án giao đúng thời hạn và ngân sách."
+      },
+      "pm2": {
+        "name": "Linda Zhang",
+        "role": "Technical Program Manager",
+        "bio": "Quản lý đa chức năng. Chuyên gia PMP & SAFe được chứng nhận."
+      },
+      "pm3": {
+        "name": "Carlos Rivera",
+        "role": "Delivery Manager",
+        "bio": "Chuyên gia quan hệ khách hàng. 8+ năm quản lý tài khoản doanh nghiệp."
+      }
     },
     "technical": {
       "title": "Đội Ngũ Kỹ Thuật",
-      "subtitle": "Engineers và Developers xây dựng sản phẩm"
+      "subtitle": "Kỹ sư tài năng xây dựng giải pháp tiên tiến",
+      "lead1": {
+        "name": "Alex Thompson",
+        "role": "Lead Full-Stack Engineer",
+        "bio": "Chuyên gia React, Node.js, AWS. Xây dựng nền tảng phục vụ 10M+ người dùng."
+      },
+      "lead2": {
+        "name": "Priya Sharma",
+        "role": "Lead Mobile Engineer",
+        "bio": "Chuyên gia iOS/Android. Phát hành ứng dụng với 5M+ lượt tải."
+      },
+      "lead3": {
+        "name": "Kevin O'Brien",
+        "role": "Lead DevOps Engineer",
+        "bio": "Chuyên gia Kubernetes & CI/CD. Giảm 80% thời gian triển khai."
+      },
+      "lead4": {
+        "name": "Maya Patel",
+        "role": "Lead AI Engineer",
+        "bio": "Chuyên gia ML/NLP. Tiến sĩ Khoa học Máy tính, nhà nghiên cứu công bố."
+      }
     },
     "qa": {
-      "title": "Đội Kiểm Thử",
-      "subtitle": "QA Engineers đảm bảo chất lượng sản phẩm"
+      "title": "Kiểm Thử Chất Lượng",
+      "subtitle": "Đội ngũ QA tận tâm đảm bảo sản phẩm xuất sắc",
+      "qa1": {
+        "name": "Tom Anderson",
+        "role": "QA Lead",
+        "bio": "Chuyên gia tự động hóa test. Chứng chỉ ISTQB với 10+ năm kinh nghiệm."
+      },
+      "qa2": {
+        "name": "Sofia Martinez",
+        "role": "Senior QA Engineer",
+        "bio": "Chuyên gia performance testing. Thành thạo Selenium & Cypress."
+      }
+    },
+    "cta": {
+      "title": "Tham gia đội ngũ và xây dựng",
+      "titleHighlight": "tương lai",
+      "subtitle": "Chúng tôi luôn tìm kiếm những người tài năng đam mê công nghệ và đổi mới sáng tạo.",
+      "ctaPrimary": "Xem Vị Trí Tuyển Dụng",
+      "ctaSecondary": "Tìm Hiểu Văn Hóa"
+    }
+  },
+  "industries": {
+    "hero": {
+      "badge": "Ngành Phục Vụ",
+      "title": "Trao quyền cho doanh nghiệp",
+      "titleHighlight": "mọi lĩnh vực",
+      "subtitle": "Chuyên môn ngành sâu kết hợp công nghệ tiên tiến giải quyết thách thức kinh doanh phức tạp"
+    },
+    "sectors": {
+      "title": "Tập Trung Ngành",
+      "subtitle": "Giải pháp chuyên biệt cho thị trường đa dạng"
+    },
+    "ecommerce": {
+      "title": "Thương Mại Điện Tử & Bán Lẻ",
+      "description": "Trải nghiệm mua sắm thế hệ mới thúc đẩy chuyển đổi và lòng trung thành khách hàng",
+      "features": [
+        "Tích hợp đa kênh omnichannel",
+        "Gợi ý cá nhân hóa",
+        "Quản lý kho thời gian thực",
+        "Phân tích & báo cáo nâng cao",
+        "Tích hợp cổng thanh toán",
+        "Thiết kế mobile-first"
+      ],
+      "stats": {
+        "projects": "40+",
+        "label1": "Dự án e-commerce",
+        "growth": "250%",
+        "label2": "Tăng trưởng doanh số TB"
+      }
+    },
+    "fintech": {
+      "title": "FinTech & Ngân Hàng",
+      "description": "Giải pháp công nghệ tài chính bảo mật, tuân thủ cho nền kinh tế số",
+      "features": [
+        "Nền tảng ngân hàng số",
+        "Hệ thống xử lý thanh toán",
+        "Blockchain & cryptocurrency",
+        "Phát hiện & ngăn chặn gian lận",
+        "Tuân thủ quy định",
+        "API open banking"
+      ],
+      "stats": {
+        "projects": "25+",
+        "label1": "Giải pháp FinTech",
+        "transactions": "$500M+",
+        "label2": "Giao dịch xử lý"
+      }
+    },
+    "healthcare": {
+      "title": "Y Tế & MedTech",
+      "description": "Giải pháp y tế số cải thiện chăm sóc bệnh nhân và hiệu quả vận hành",
+      "features": [
+        "Nền tảng khám chữa bệnh từ xa",
+        "Hồ sơ sức khỏe điện tử",
+        "Tích hợp thiết bị y tế",
+        "Tuân thủ HIPAA",
+        "Hệ thống quản lý bệnh nhân",
+        "Phân tích sức khỏe"
+      ],
+      "stats": {
+        "projects": "15+",
+        "label1": "Hệ thống y tế",
+        "patients": "1M+",
+        "label2": "Bệnh nhân phục vụ"
+      }
+    },
+    "media": {
+      "title": "Truyền Thông & Giải Trí",
+      "description": "Nền tảng streaming và nội dung hấp dẫn cho khán giả hiện đại",
+      "features": [
+        "Hạ tầng live streaming",
+        "Nền tảng video on-demand",
+        "Hệ thống quản lý nội dung",
+        "Tối ưu hóa CDN",
+        "Hỗ trợ đa thiết bị",
+        "Chiến lược kiếm tiền"
+      ],
+      "stats": {
+        "projects": "20+",
+        "label1": "Nền tảng media",
+        "viewers": "5M+",
+        "label2": "Người xem đồng thời"
+      }
+    },
+    "education": {
+      "title": "Giáo Dục & E-Learning",
+      "description": "Nền tảng học tập tương tác chuyển đổi phương thức giảng dạy",
+      "features": [
+        "Hệ thống quản lý học tập LMS",
+        "Lớp học ảo",
+        "Công cụ nội dung tương tác",
+        "Theo dõi tiến độ",
+        "Ứng dụng học di động",
+        "Hệ thống chứng chỉ"
+      ],
+      "stats": {
+        "projects": "18+",
+        "label1": "Nền tảng EdTech",
+        "students": "500K+",
+        "label2": "Học viên đăng ký"
+      }
+    },
+    "logistics": {
+      "title": "Logistics & Chuỗi Cung Ứng",
+      "description": "Giải pháp logistics thông minh tối ưu hóa hoạt động chuỗi cung ứng",
+      "features": [
+        "Hệ thống quản lý đội xe",
+        "Theo dõi thời gian thực",
+        "Tối ưu hóa tuyến đường",
+        "Quản lý kho bãi",
+        "Khả năng hiển thị chuỗi cung ứng",
+        "Phân tích dự đoán"
+      ],
+      "stats": {
+        "projects": "12+",
+        "label1": "Hệ thống logistics",
+        "efficiency": "40%",
+        "label2": "Giảm chi phí"
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng chuyển đổi",
+      "titleHighlight": "ngành của bạn?",
+      "subtitle": "Hãy thảo luận về cách chuyên môn của chúng tôi có thể tăng tốc hành trình chuyển đổi số của bạn.",
+      "ctaPrimary": "Đặt Lịch Tư Vấn",
+      "ctaSecondary": "Xem Case Study"
+    }
+  },
+  "careers": {
+    "hero": {
+      "badge": "Tuyển Dụng",
+      "title": "Xây dựng sự nghiệp cùng",
+      "titleHighlight": "người dẫn đầu đổi mới",
+      "subtitle": "Tham gia đội ngũ công nghệ đam mê làm việc trên dự án tiên tiến cho khách hàng toàn cầu"
+    },
+    "benefits": {
+      "title": "Tại Sao Chọn EXO?",
+      "subtitle": "Phúc lợi và văn hóa đẳng cấp thế giới",
+      "competitive": {
+        "title": "Lương Thưởng Cạnh Tranh",
+        "description": "Mức lương dẫn đầu thị trường, thưởng hiệu suất và cổ phần"
+      },
+      "flexible": {
+        "title": "Làm Việc Linh Hoạt",
+        "description": "Văn hóa remote-first với giờ giấc linh hoạt và cân bằng công việc-cuộc sống"
+      },
+      "growth": {
+        "title": "Phát Triển Sự Nghiệp",
+        "description": "Lộ trình nghề nghiệp rõ ràng, chương trình mentorship và phát triển kỹ năng"
+      },
+      "learning": {
+        "title": "Ngân Sách Đào Tạo",
+        "description": "50 triệu VNĐ/năm cho khóa học, hội nghị và chứng chỉ"
+      },
+      "health": {
+        "title": "Sức Khỏe & Thể Chất",
+        "description": "Bảo hiểm sức khỏe cao cấp, hỗ trợ tinh thần, thẻ phòng gym"
+      },
+      "international": {
+        "title": "Tiếp Xúc Quốc Tế",
+        "description": "Làm việc với khách hàng quốc tế và đội ngũ đa văn hóa"
+      }
+    },
+    "positions": {
+      "title": "Vị Trí Tuyển Dụng",
+      "subtitle": "Tìm cơ hội tiếp theo của bạn",
+      "senior_fullstack": {
+        "title": "Senior Full-Stack Engineer",
+        "department": "Kỹ Thuật",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Xây dựng ứng dụng web có khả năng mở rộng sử dụng React, Node.js và AWS",
+        "requirements": [
+          "5+ năm phát triển full-stack",
+          "Thành thạo React, TypeScript, Node.js",
+          "Kinh nghiệm với AWS/GCP",
+          "Kỹ năng thiết kế hệ thống mạnh"
+        ]
+      },
+      "mobile_engineer": {
+        "title": "Mobile Engineer (iOS/Android)",
+        "department": "Kỹ Thuật",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Tạo trải nghiệm di động đẹp mắt cho hàng triệu người dùng",
+        "requirements": [
+          "3+ năm phát triển mobile",
+          "Thành thạo Swift/Kotlin",
+          "Kinh nghiệm React Native",
+          "Đã phát hành app trên App Store/Play Store"
+        ]
+      },
+      "devops": {
+        "title": "DevOps Engineer",
+        "department": "Hạ Tầng",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Xây dựng và duy trì CI/CD pipeline và hạ tầng cloud",
+        "requirements": [
+          "3+ năm kinh nghiệm DevOps",
+          "Chuyên gia Kubernetes & Docker",
+          "Chứng chỉ AWS/GCP",
+          "Kỹ năng Terraform/CloudFormation"
+        ]
+      },
+      "ai_engineer": {
+        "title": "AI/ML Engineer",
+        "department": "Kỹ Thuật",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Phát triển giải pháp AI và tích hợp LLM vào sản phẩm",
+        "requirements": [
+          "2+ năm kinh nghiệm ML/AI",
+          "Python, TensorFlow, PyTorch",
+          "Kinh nghiệm tích hợp LLM",
+          "Toán & thuật toán mạnh"
+        ]
+      },
+      "product_designer": {
+        "title": "Senior Product Designer",
+        "department": "Thiết Kế",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Thiết kế trải nghiệm người dùng trực quan cho sản phẩm web và mobile",
+        "requirements": [
+          "4+ năm thiết kế sản phẩm",
+          "Chuyên gia Figma & design system",
+          "Nghiên cứu & kiểm thử người dùng",
+          "Portfolio sản phẩm đã ra mắt"
+        ]
+      },
+      "project_manager": {
+        "title": "Technical Project Manager",
+        "department": "Quản Lý",
+        "location": "Remote / TP. Hồ Chí Minh",
+        "type": "Toàn thời gian",
+        "description": "Dẫn dắt đội đa chức năng giao phần mềm doanh nghiệp",
+        "requirements": [
+          "3+ năm quản lý dự án",
+          "Chứng chỉ Agile/Scrum",
+          "Nền tảng kỹ thuật",
+          "Kinh nghiệm đối mặt khách hàng"
+        ]
+      }
+    },
+    "process": {
+      "title": "Quy Trình Tuyển Dụng",
+      "subtitle": "Hành trình tuyển dụng minh bạch",
+      "step1": {
+        "title": "Xem Xét Hồ Sơ",
+        "description": "Chúng tôi xem xét hồ sơ trong vòng 3 ngày làm việc"
+      },
+      "step2": {
+        "title": "Phỏng Vấn Điện Thoại",
+        "description": "Cuộc gọi 30 phút để thảo luận về kinh nghiệm và quan tâm"
+      },
+      "step3": {
+        "title": "Đánh Giá Kỹ Thuật",
+        "description": "Thử thách lập trình thực tế hoặc bài tập thiết kế"
+      },
+      "step4": {
+        "title": "Phỏng Vấn Đội Ngũ",
+        "description": "Gặp đội ngũ và thảo luận về phù hợp kỹ thuật & văn hóa"
+      },
+      "step5": {
+        "title": "Đề Nghị",
+        "description": "Nhận đề nghị trong vòng 48 giờ sau phỏng vấn cuối"
+      }
+    },
+    "cta": {
+      "title": "Không thấy vị trí phù hợp?",
+      "titleHighlight": "Vẫn hãy liên hệ",
+      "subtitle": "Chúng tôi luôn quan tâm gặp gỡ người tài năng. Gửi CV và chúng tôi sẽ liên hệ khi có vị trí phù hợp.",
+      "ctaPrimary": "Gửi CV Của Bạn",
+      "ctaSecondary": "Tìm Hiểu Văn Hóa"
     }
   },
   "contact": {

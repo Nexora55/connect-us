@@ -73,6 +73,378 @@
       "benefit3": "24h Response"
     }
   },
+  "team": {
+    "hero": {
+      "badge": "Our Team",
+      "title": "Meet our world-class",
+      "titleHighlight": "experts",
+      "subtitle": "50+ senior professionals with 10+ years of experience in technology, management, and innovation"
+    },
+    "leadership": {
+      "title": "Leadership Team",
+      "subtitle": "Visionaries driving strategy and growth",
+      "ceo": {
+        "name": "David Chen",
+        "role": "CEO & Founder",
+        "bio": "15+ years building scalable tech solutions. Former VP at Amazon, Stanford CS."
+      },
+      "cto": {
+        "name": "Sarah Park",
+        "role": "Chief Technology Officer",
+        "bio": "Cloud architecture expert. Ex-Google Senior Engineer, MIT graduate."
+      },
+      "coo": {
+        "name": "Michael Torres",
+        "role": "Chief Operating Officer",
+        "bio": "Operations excellence specialist. Previously COO at Series B startup."
+      },
+      "cdo": {
+        "name": "Emily Watson",
+        "role": "Chief Design Officer",
+        "bio": "Award-winning UX designer. Led design at Airbnb, RISD MFA."
+      }
+    },
+    "management": {
+      "title": "Project Management",
+      "subtitle": "Expert coordinators ensuring delivery excellence",
+      "pm1": {
+        "name": "James Kim",
+        "role": "Senior Project Manager",
+        "bio": "Agile/Scrum certified. 100+ projects delivered on time and budget."
+      },
+      "pm2": {
+        "name": "Linda Zhang",
+        "role": "Technical Program Manager",
+        "bio": "Cross-functional team leader. PMP & SAFe certified professional."
+      },
+      "pm3": {
+        "name": "Carlos Rivera",
+        "role": "Delivery Manager",
+        "bio": "Client relationship expert. 8+ years managing enterprise accounts."
+      }
+    },
+    "technical": {
+      "title": "Engineering Team",
+      "subtitle": "Skilled engineers building cutting-edge solutions",
+      "lead1": {
+        "name": "Alex Thompson",
+        "role": "Lead Full-Stack Engineer",
+        "bio": "React, Node.js, AWS expert. Built platforms serving 10M+ users."
+      },
+      "lead2": {
+        "name": "Priya Sharma",
+        "role": "Lead Mobile Engineer",
+        "bio": "iOS/Android specialist. Published apps with 5M+ downloads."
+      },
+      "lead3": {
+        "name": "Kevin O'Brien",
+        "role": "Lead DevOps Engineer",
+        "bio": "Kubernetes & CI/CD expert. Reduced deployment time by 80%."
+      },
+      "lead4": {
+        "name": "Maya Patel",
+        "role": "Lead AI Engineer",
+        "bio": "ML/NLP specialist. PhD in Computer Science, published researcher."
+      }
+    },
+    "qa": {
+      "title": "Quality Assurance",
+      "subtitle": "Dedicated QA ensuring product excellence",
+      "qa1": {
+        "name": "Tom Anderson",
+        "role": "QA Lead",
+        "bio": "Test automation expert. ISTQB certified with 10+ years experience."
+      },
+      "qa2": {
+        "name": "Sofia Martinez",
+        "role": "Senior QA Engineer",
+        "bio": "Performance testing specialist. Selenium & Cypress expert."
+      }
+    },
+    "cta": {
+      "title": "Join our team and build",
+      "titleHighlight": "the future",
+      "subtitle": "We're always looking for talented individuals who are passionate about technology and innovation.",
+      "ctaPrimary": "View Open Positions",
+      "ctaSecondary": "Learn About Our Culture"
+    }
+  },
+  "industries": {
+    "hero": {
+      "badge": "Industries We Serve",
+      "title": "Empowering businesses across",
+      "titleHighlight": "all sectors",
+      "subtitle": "Deep industry expertise combined with cutting-edge technology to solve complex business challenges"
+    },
+    "sectors": {
+      "title": "Our Industry Focus",
+      "subtitle": "Specialized solutions for diverse markets"
+    },
+    "ecommerce": {
+      "title": "E-Commerce & Retail",
+      "description": "Next-generation shopping experiences that drive conversion and customer loyalty",
+      "features": [
+        "Omnichannel integration",
+        "Personalized recommendations",
+        "Real-time inventory management",
+        "Advanced analytics & reporting",
+        "Payment gateway integration",
+        "Mobile-first design"
+      ],
+      "stats": {
+        "projects": "40+",
+        "label1": "E-commerce projects",
+        "growth": "250%",
+        "label2": "Average sales growth"
+      }
+    },
+    "fintech": {
+      "title": "FinTech & Banking",
+      "description": "Secure, compliant financial technology solutions for the digital economy",
+      "features": [
+        "Digital banking platforms",
+        "Payment processing systems",
+        "Blockchain & cryptocurrency",
+        "Fraud detection & prevention",
+        "Regulatory compliance",
+        "Open banking APIs"
+      ],
+      "stats": {
+        "projects": "25+",
+        "label1": "FinTech solutions",
+        "transactions": "$500M+",
+        "label2": "Transactions processed"
+      }
+    },
+    "healthcare": {
+      "title": "Healthcare & MedTech",
+      "description": "Digital health solutions improving patient care and operational efficiency",
+      "features": [
+        "Telemedicine platforms",
+        "Electronic health records",
+        "Medical device integration",
+        "HIPAA compliance",
+        "Patient management systems",
+        "Health analytics"
+      ],
+      "stats": {
+        "projects": "15+",
+        "label1": "Healthcare systems",
+        "patients": "1M+",
+        "label2": "Patients served"
+      }
+    },
+    "media": {
+      "title": "Media & Entertainment",
+      "description": "Engaging streaming and content platforms for modern audiences",
+      "features": [
+        "Live streaming infrastructure",
+        "Video on-demand platforms",
+        "Content management systems",
+        "CDN optimization",
+        "Multi-device support",
+        "Monetization strategies"
+      ],
+      "stats": {
+        "projects": "20+",
+        "label1": "Media platforms",
+        "viewers": "5M+",
+        "label2": "Concurrent viewers"
+      }
+    },
+    "education": {
+      "title": "Education & E-Learning",
+      "description": "Interactive learning platforms transforming education delivery",
+      "features": [
+        "Learning management systems",
+        "Virtual classrooms",
+        "Interactive content tools",
+        "Progress tracking",
+        "Mobile learning apps",
+        "Certification systems"
+      ],
+      "stats": {
+        "projects": "18+",
+        "label1": "EdTech platforms",
+        "students": "500K+",
+        "label2": "Students enrolled"
+      }
+    },
+    "logistics": {
+      "title": "Logistics & Supply Chain",
+      "description": "Smart logistics solutions optimizing supply chain operations",
+      "features": [
+        "Fleet management systems",
+        "Real-time tracking",
+        "Route optimization",
+        "Warehouse management",
+        "Supply chain visibility",
+        "Predictive analytics"
+      ],
+      "stats": {
+        "projects": "12+",
+        "label1": "Logistics systems",
+        "efficiency": "40%",
+        "label2": "Cost reduction"
+      }
+    },
+    "cta": {
+      "title": "Ready to transform",
+      "titleHighlight": "your industry?",
+      "subtitle": "Let's discuss how our expertise can accelerate your digital transformation journey.",
+      "ctaPrimary": "Schedule Consultation",
+      "ctaSecondary": "View Case Studies"
+    }
+  },
+  "careers": {
+    "hero": {
+      "badge": "Careers",
+      "title": "Build your career with",
+      "titleHighlight": "innovation leaders",
+      "subtitle": "Join a team of passionate technologists working on cutting-edge projects for global clients"
+    },
+    "benefits": {
+      "title": "Why Join EXO?",
+      "subtitle": "World-class benefits and culture",
+      "competitive": {
+        "title": "Competitive Compensation",
+        "description": "Market-leading salaries, performance bonuses, and equity options"
+      },
+      "flexible": {
+        "title": "Flexible Work",
+        "description": "Remote-first culture with flexible hours and work-life balance"
+      },
+      "growth": {
+        "title": "Career Growth",
+        "description": "Clear career paths, mentorship programs, and skills development"
+      },
+      "learning": {
+        "title": "Learning Budget",
+        "description": "$2,000/year for courses, conferences, and certifications"
+      },
+      "health": {
+        "title": "Health & Wellness",
+        "description": "Premium health insurance, mental health support, gym membership"
+      },
+      "international": {
+        "title": "Global Exposure",
+        "description": "Work with international clients and multicultural teams"
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "subtitle": "Find your next opportunity",
+      "senior_fullstack": {
+        "title": "Senior Full-Stack Engineer",
+        "department": "Engineering",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Build scalable web applications using React, Node.js, and AWS",
+        "requirements": [
+          "5+ years full-stack development",
+          "Expert in React, TypeScript, Node.js",
+          "Experience with AWS/GCP",
+          "Strong system design skills"
+        ]
+      },
+      "mobile_engineer": {
+        "title": "Mobile Engineer (iOS/Android)",
+        "department": "Engineering",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Create beautiful mobile experiences for millions of users",
+        "requirements": [
+          "3+ years mobile development",
+          "Swift/Kotlin expertise",
+          "React Native experience",
+          "Published apps in App Store/Play Store"
+        ]
+      },
+      "devops": {
+        "title": "DevOps Engineer",
+        "department": "Infrastructure",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Build and maintain CI/CD pipelines and cloud infrastructure",
+        "requirements": [
+          "3+ years DevOps experience",
+          "Kubernetes & Docker expert",
+          "AWS/GCP certification",
+          "Terraform/CloudFormation skills"
+        ]
+      },
+      "ai_engineer": {
+        "title": "AI/ML Engineer",
+        "department": "Engineering",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Develop AI solutions and integrate LLMs into products",
+        "requirements": [
+          "2+ years ML/AI experience",
+          "Python, TensorFlow, PyTorch",
+          "LLM integration experience",
+          "Strong math & algorithms"
+        ]
+      },
+      "product_designer": {
+        "title": "Senior Product Designer",
+        "department": "Design",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Design intuitive user experiences for web and mobile products",
+        "requirements": [
+          "4+ years product design",
+          "Figma & design systems expert",
+          "User research & testing",
+          "Portfolio of shipped products"
+        ]
+      },
+      "project_manager": {
+        "title": "Technical Project Manager",
+        "department": "Management",
+        "location": "Remote / Ho Chi Minh City",
+        "type": "Full-time",
+        "description": "Lead cross-functional teams delivering enterprise software",
+        "requirements": [
+          "3+ years project management",
+          "Agile/Scrum certification",
+          "Technical background",
+          "Client-facing experience"
+        ]
+      }
+    },
+    "process": {
+      "title": "Hiring Process",
+      "subtitle": "Our transparent recruitment journey",
+      "step1": {
+        "title": "Application Review",
+        "description": "We review your application within 3 business days"
+      },
+      "step2": {
+        "title": "Phone Screening",
+        "description": "30-minute call to discuss your background and interests"
+      },
+      "step3": {
+        "title": "Technical Assessment",
+        "description": "Practical coding challenge or design exercise"
+      },
+      "step4": {
+        "title": "Team Interview",
+        "description": "Meet the team and discuss technical & cultural fit"
+      },
+      "step5": {
+        "title": "Offer",
+        "description": "Receive offer within 48 hours after final interview"
+      }
+    },
+    "cta": {
+      "title": "Don't see the right role?",
+      "titleHighlight": "Let's talk anyway",
+      "subtitle": "We're always interested in meeting talented people. Send us your resume and we'll reach out when a suitable position opens.",
+      "ctaPrimary": "Submit Your Resume",
+      "ctaSecondary": "Learn About Our Culture"
+    }
+  },
   "footer": {
     "description": "Trusted technology partner, helping businesses accelerate innovation and digital transformation successfully.",
     "services": "Services",
