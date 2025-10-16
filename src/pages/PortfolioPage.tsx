@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Section, Container, Card, Badge, Button } from '../components/ui';
 
 const PortfolioPage = () => {
@@ -18,7 +18,8 @@ const PortfolioPage = () => {
       image: '🏦',
       title: 'FinTech Banking App',
       client: 'VietBank',
-      description: 'Ứng dụng ngân hàng số với tích hợp AI fraud detection, xử lý 1M+ giao dịch/ngày',
+      description:
+        'Ứng dụng ngân hàng số với tích hợp AI fraud detection, xử lý 1M+ giao dịch/ngày',
       category: 'mobile',
       tags: ['React Native', 'Node.js', 'TensorFlow', 'AWS'],
       year: '2024',
@@ -34,7 +35,8 @@ const PortfolioPage = () => {
       image: '🛒',
       title: 'E-Commerce Platform',
       client: 'ShopNow',
-      description: 'Nền tảng thương mại điện tử đa kênh với recommendation engine thông minh',
+      description:
+        'Nền tảng thương mại điện tử đa kênh với recommendation engine thông minh',
       category: 'web',
       tags: ['Next.js', 'Microservices', 'MongoDB', 'Redis'],
       year: '2024',
@@ -50,7 +52,8 @@ const PortfolioPage = () => {
       image: '📚',
       title: 'EdTech Learning Platform',
       client: 'EduSmart',
-      description: 'Nền tảng học tập trực tuyến với AI tutor và adaptive learning paths',
+      description:
+        'Nền tảng học tập trực tuyến với AI tutor và adaptive learning paths',
       category: 'web',
       tags: ['React', 'Python', 'TensorFlow', 'PostgreSQL'],
       year: '2023',
@@ -66,7 +69,8 @@ const PortfolioPage = () => {
       image: '🏥',
       title: 'Healthcare Management System',
       client: 'MediCare',
-      description: 'Hệ thống quản lý bệnh viện với telemedicine và EMR tích hợp',
+      description:
+        'Hệ thống quản lý bệnh viện với telemedicine và EMR tích hợp',
       category: 'web',
       tags: ['Vue.js', 'Laravel', 'MySQL', 'WebRTC'],
       year: '2023',
@@ -82,7 +86,8 @@ const PortfolioPage = () => {
       image: '🚗',
       title: 'Ride-Sharing Mobile App',
       client: 'GoRide',
-      description: 'Ứng dụng đặt xe với real-time tracking và AI route optimization',
+      description:
+        'Ứng dụng đặt xe với real-time tracking và AI route optimization',
       category: 'mobile',
       tags: ['Flutter', 'Node.js', 'Google Maps', 'Socket.io'],
       year: '2024',
@@ -98,7 +103,8 @@ const PortfolioPage = () => {
       image: '🏠',
       title: 'Real Estate Marketplace',
       client: 'HomeFinder',
-      description: 'Marketplace bất động sản với AR viewing và AI price prediction',
+      description:
+        'Marketplace bất động sản với AR viewing và AI price prediction',
       category: 'web',
       tags: ['React', 'Django', 'ARKit', 'Elasticsearch'],
       year: '2023',
@@ -114,7 +120,8 @@ const PortfolioPage = () => {
       image: '🤖',
       title: 'AI Chatbot Platform',
       client: 'TalkBot',
-      description: 'Nền tảng chatbot thông minh với NLP và multi-channel support',
+      description:
+        'Nền tảng chatbot thông minh với NLP và multi-channel support',
       category: 'ai',
       tags: ['Python', 'Rasa', 'FastAPI', 'Docker'],
       year: '2024',
@@ -146,7 +153,8 @@ const PortfolioPage = () => {
       image: '📊',
       title: 'Analytics Dashboard',
       client: 'DataPro',
-      description: 'Real-time analytics platform với ML predictions và custom reports',
+      description:
+        'Real-time analytics platform với ML predictions và custom reports',
       category: 'ai',
       tags: ['React', 'Python', 'Spark', 'Tableau'],
       year: '2024',
@@ -159,9 +167,10 @@ const PortfolioPage = () => {
     },
   ];
 
-  const filteredProjects = selectedFilter === 'all'
-    ? projects
-    : projects.filter(p => p.category === selectedFilter);
+  const filteredProjects =
+    selectedFilter === 'all'
+      ? projects
+      : projects.filter(p => p.category === selectedFilter);
 
   return (
     <>
@@ -177,7 +186,8 @@ const PortfolioPage = () => {
               <span className="gradient-fire">chúng tôi</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
-              Những sản phẩm đã giúp khách hàng tăng trưởng vượt bậc và chuyển đổi số thành công. Mỗi dự án là một câu chuyện thành công.
+              Những sản phẩm đã giúp khách hàng tăng trưởng vượt bậc và chuyển
+              đổi số thành công. Mỗi dự án là một câu chuyện thành công.
             </p>
           </div>
         </Container>
@@ -188,7 +198,7 @@ const PortfolioPage = () => {
         <Container>
           {/* Filter Tags */}
           <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-            {filters.map((filter) => (
+            {filters.map(filter => (
               <button
                 key={filter.id}
                 onClick={() => setSelectedFilter(filter.id)}
@@ -205,13 +215,13 @@ const PortfolioPage = () => {
 
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project, index) => (
+            {filteredProjects.map(project => (
               <Card
                 key={project.id}
                 variant="hover"
                 to={project.link}
                 className="group animate-slide-up"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Project Image */}
                 <div className="aspect-video bg-gradient-to-br from-primary-100 via-secondary-100 to-accent-100 rounded-xl mb-4 flex items-center justify-center text-7xl group-hover:scale-105 transition-transform overflow-hidden relative">
@@ -279,7 +289,7 @@ const PortfolioPage = () => {
               <div
                 key={index}
                 className="animate-scale-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-4xl mb-2">{stat.icon}</div>
                 <div className="text-4xl font-bold gradient-fire mb-1">
@@ -293,7 +303,11 @@ const PortfolioPage = () => {
       </Section>
 
       {/* CTA Section */}
-      <Section background="fire" padding="lg" className="relative overflow-hidden">
+      <Section
+        background="dark"
+        padding="lg"
+        className="relative overflow-hidden"
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary-600/50 to-secondary-600/50" />
 
         <Container className="relative z-10">

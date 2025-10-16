@@ -4,11 +4,9 @@ import DataTable from '../components/DataTable';
 import LoadingSpinner from '../components/LoadingSpinner';
 import ErrorMessage from '../components/ErrorMessage';
 import { useAppStore } from '../store/useAppStore';
-import { useDataStore } from '../store/useDataStore';
 
 const Home: React.FC = () => {
   const { isLoading, error } = useAppStore();
-  const { data } = useDataStore();
 
   useEffect(() => {
     // Fetch initial data when component mounts
@@ -43,11 +41,7 @@ const Home: React.FC = () => {
             </button>
           </div>
 
-          {isLoading ? (
-            <LoadingSpinner />
-          ) : (
-            <DataTable />
-          )}
+          {isLoading ? <LoadingSpinner /> : <DataTable />}
         </div>
       </main>
     </div>

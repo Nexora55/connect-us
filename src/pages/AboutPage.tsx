@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section, Container, Card, Badge } from '../components/ui';
 
 const AboutPage = () => {
@@ -6,12 +5,14 @@ const AboutPage = () => {
     {
       year: '2014',
       title: 'Khởi đầu',
-      description: 'Thành lập với đội ngũ 5 người, tập trung vào web development',
+      description:
+        'Thành lập với đội ngũ 5 người, tập trung vào web development',
     },
     {
       year: '2017',
       title: 'Mở rộng',
-      description: 'Phát triển lên 20+ thành viên, mở rộng sang mobile và cloud',
+      description:
+        'Phát triển lên 20+ thành viên, mở rộng sang mobile và cloud',
     },
     {
       year: '2020',
@@ -29,7 +30,8 @@ const AboutPage = () => {
     {
       icon: '🎯',
       title: 'Tập trung khách hàng',
-      description: 'Thành công của khách hàng là ưu tiên hàng đầu của chúng tôi',
+      description:
+        'Thành công của khách hàng là ưu tiên hàng đầu của chúng tôi',
     },
     {
       icon: '💡',
@@ -122,7 +124,9 @@ const AboutPage = () => {
               <span className="gradient-fire">tương lai số</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
-              ConnectUs là đối tác công nghệ đáng tin cậy, giúp doanh nghiệp tăng tốc đổi mới và chuyển đổi số thành công với đội ngũ chuyên gia 10+ năm kinh nghiệm.
+              ConnectUs là đối tác công nghệ đáng tin cậy, giúp doanh nghiệp
+              tăng tốc đổi mới và chuyển đổi số thành công với đội ngũ chuyên
+              gia 10+ năm kinh nghiệm.
             </p>
           </div>
         </Container>
@@ -138,7 +142,9 @@ const AboutPage = () => {
                 Sứ mệnh
               </h2>
               <p className="text-neutral-700 leading-relaxed text-lg">
-                Giúp doanh nghiệp Việt Nam và toàn cầu tận dụng sức mạnh của công nghệ để tăng trưởng bền vững, tạo ra giá trị thực cho khách hàng và xã hội.
+                Giúp doanh nghiệp Việt Nam và toàn cầu tận dụng sức mạnh của
+                công nghệ để tăng trưởng bền vững, tạo ra giá trị thực cho khách
+                hàng và xã hội.
               </p>
             </Card>
 
@@ -148,7 +154,9 @@ const AboutPage = () => {
                 Tầm nhìn
               </h2>
               <p className="text-neutral-700 leading-relaxed text-lg">
-                Trở thành công ty công nghệ hàng đầu Đông Nam Á, được khách hàng tin tưởng và nhân viên tự hào, góp phần định hình tương lai số của khu vực.
+                Trở thành công ty công nghệ hàng đầu Đông Nam Á, được khách hàng
+                tin tưởng và nhân viên tự hào, góp phần định hình tương lai số
+                của khu vực.
               </p>
             </Card>
           </div>
@@ -166,7 +174,8 @@ const AboutPage = () => {
               Những gì chúng tôi tin tưởng
             </h2>
             <p className="text-neutral-600 text-lg max-w-3xl mx-auto">
-              Giá trị cốt lõi định hình văn hóa làm việc và cách chúng tôi phục vụ khách hàng
+              Giá trị cốt lõi định hình văn hóa làm việc và cách chúng tôi phục
+              vụ khách hàng
             </p>
           </div>
 
@@ -176,7 +185,7 @@ const AboutPage = () => {
                 key={index}
                 variant="hover"
                 className="text-center group animate-slide-up"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
                   {value.icon}
@@ -219,7 +228,7 @@ const AboutPage = () => {
                   <div
                     key={index}
                     className="relative flex items-start gap-8 animate-slide-up"
-                    style={{ animationDelay: `${index * 150}ms` }}
+                    // style={{ animationDelay: `${index * 150}ms` }}
                   >
                     {/* Year Badge */}
                     <div className="flex-shrink-0">
@@ -263,7 +272,7 @@ const AboutPage = () => {
                 key={index}
                 variant="hover"
                 className="text-center animate-scale-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-4xl mb-4">{cap.icon}</div>
                 <h3 className="text-lg font-semibold text-neutral-900 mb-2">
@@ -299,7 +308,7 @@ const AboutPage = () => {
                 key={index}
                 variant="hover"
                 className="text-center group animate-slide-up"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-7xl mb-4 group-hover:scale-110 transition-transform">
                   {member.avatar}
@@ -320,7 +329,11 @@ const AboutPage = () => {
       </Section>
 
       {/* Stats */}
-      <Section background="fire" padding="lg" className="relative overflow-hidden">
+      <Section
+        background="dark"
+        padding="lg"
+        className="relative overflow-hidden"
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary-600/50 to-secondary-600/50" />
 
         <Container className="relative z-10">
@@ -334,7 +347,7 @@ const AboutPage = () => {
               <div
                 key={index}
                 className="animate-scale-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-5xl font-bold mb-2">{stat.number}</div>
                 <div className="text-white/80">{stat.label}</div>

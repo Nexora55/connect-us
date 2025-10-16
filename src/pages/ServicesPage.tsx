@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Section, Container, Button, Card, Badge } from '../components/ui';
 
 const ServicesPage = () => {
@@ -16,7 +16,8 @@ const ServicesPage = () => {
       id: 'web',
       icon: '💻',
       title: 'Web Development',
-      description: 'Xây dựng ứng dụng web hiện đại, responsive và hiệu suất cao',
+      description:
+        'Xây dựng ứng dụng web hiện đại, responsive và hiệu suất cao',
       features: [
         'Single Page Applications (SPA)',
         'Progressive Web Apps (PWA)',
@@ -91,7 +92,8 @@ const ServicesPage = () => {
       id: 'ux',
       icon: '🎨',
       title: 'UI/UX Design',
-      description: 'Thiết kế trải nghiệm người dùng tối ưu và giao diện đẹp mắt',
+      description:
+        'Thiết kế trải nghiệm người dùng tối ưu và giao diện đẹp mắt',
       features: [
         'User Research & Testing',
         'Wireframing & Prototyping',
@@ -151,18 +153,15 @@ const ServicesPage = () => {
     },
   ];
 
-  const filteredServices = selectedFilter === 'all'
-    ? services
-    : services.filter(s => s.category === selectedFilter);
+  const filteredServices =
+    selectedFilter === 'all'
+      ? services
+      : services.filter(s => s.category === selectedFilter);
 
   return (
     <>
       {/* Hero Section */}
-      <Section
-        background="gradient"
-        padding="lg"
-        className="pt-32"
-      >
+      <Section background="gradient" padding="lg" className="pt-32">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="primary" size="lg" className="mb-6">
@@ -173,7 +172,9 @@ const ServicesPage = () => {
               <span className="gradient-fire">doanh nghiệp</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
-              Từ ý tưởng đến triển khai, chúng tôi đồng hành cùng bạn trong mọi giai đoạn chuyển đổi số. Đội ngũ chuyên gia với kinh nghiệm 10+ năm sẵn sàng biến ý tưởng của bạn thành hiện thực.
+              Từ ý tưởng đến triển khai, chúng tôi đồng hành cùng bạn trong mọi
+              giai đoạn chuyển đổi số. Đội ngũ chuyên gia với kinh nghiệm 10+
+              năm sẵn sàng biến ý tưởng của bạn thành hiện thực.
             </p>
           </div>
         </Container>
@@ -184,7 +185,7 @@ const ServicesPage = () => {
         <Container>
           {/* Filter */}
           <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-            {filters.map((filter) => (
+            {filters.map(filter => (
               <button
                 key={filter.id}
                 onClick={() => setSelectedFilter(filter.id)}
@@ -201,12 +202,12 @@ const ServicesPage = () => {
 
           {/* Services Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredServices.map((service, index) => (
+            {filteredServices.map(service => (
               <Card
                 key={service.id}
                 variant="hover"
                 className="group animate-slide-up"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Icon with gradient */}
                 <div className="relative mb-6">
@@ -221,16 +222,25 @@ const ServicesPage = () => {
                 <h3 className="text-2xl font-semibold text-neutral-900 mb-3 group-hover:text-primary-600 transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-neutral-600 mb-6">
-                  {service.description}
-                </p>
+                <p className="text-neutral-600 mb-6">{service.description}</p>
 
                 {/* Features */}
                 <ul className="space-y-3 mb-6">
                   {service.features.map((feature, i) => (
-                    <li key={i} className="flex items-start text-sm text-neutral-700">
-                      <svg className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    <li
+                      key={i}
+                      className="flex items-start text-sm text-neutral-700"
+                    >
+                      <svg
+                        className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0 mt-0.5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
                       </svg>
                       {feature}
                     </li>
@@ -292,16 +302,25 @@ const ServicesPage = () => {
                   <div className="text-4xl font-bold gradient-fire mb-2">
                     {tier.price}
                   </div>
-                  <p className="text-neutral-600 text-sm">
-                    {tier.description}
-                  </p>
+                  <p className="text-neutral-600 text-sm">{tier.description}</p>
                 </div>
 
                 <ul className="space-y-3 mb-8">
                   {tier.features.map((feature, i) => (
-                    <li key={i} className="flex items-start text-sm text-neutral-700">
-                      <svg className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    <li
+                      key={i}
+                      className="flex items-start text-sm text-neutral-700"
+                    >
+                      <svg
+                        className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0 mt-0.5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
                       </svg>
                       {feature}
                     </li>
@@ -347,7 +366,8 @@ const ServicesPage = () => {
               {
                 step: '01',
                 title: 'Discovery',
-                description: 'Phân tích yêu cầu, xác định mục tiêu và lập kế hoạch',
+                description:
+                  'Phân tích yêu cầu, xác định mục tiêu và lập kế hoạch',
               },
               {
                 step: '02',
@@ -368,7 +388,7 @@ const ServicesPage = () => {
               <div
                 key={index}
                 className="relative animate-slide-up"
-                style={{ animationDelay: `${index * 150}ms` }}
+                // style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="text-center">
                   <div className="text-6xl font-bold gradient-fire mb-4 opacity-20">
@@ -377,9 +397,7 @@ const ServicesPage = () => {
                   <h3 className="text-xl font-semibold text-neutral-900 mb-3">
                     {process.title}
                   </h3>
-                  <p className="text-neutral-600">
-                    {process.description}
-                  </p>
+                  <p className="text-neutral-600">{process.description}</p>
                 </div>
 
                 {index < 3 && (
@@ -394,7 +412,11 @@ const ServicesPage = () => {
       </Section>
 
       {/* CTA Section */}
-      <Section background="fire" padding="lg" className="relative overflow-hidden">
+      <Section
+        background="dark"
+        padding="lg"
+        className="relative overflow-hidden"
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary-600/50 to-secondary-600/50" />
 
         <Container className="relative z-10">
@@ -403,7 +425,8 @@ const ServicesPage = () => {
               Bắt đầu dự án của bạn ngay hôm nay
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Liên hệ với chúng tôi để được tư vấn miễn phí về giải pháp công nghệ phù hợp nhất.
+              Liên hệ với chúng tôi để được tư vấn miễn phí về giải pháp công
+              nghệ phù hợp nhất.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button

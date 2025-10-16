@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
@@ -34,18 +34,13 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-sm'
-          : 'bg-transparent'
+        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'
       }`}
     >
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link
-            to="/"
-            className="flex items-center space-x-2 group"
-          >
+          <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
               <span className="text-white text-lg font-bold">E</span>
             </div>
@@ -56,7 +51,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
-            {navLinks.map((link) => (
+            {navLinks.map(link => (
               <Link
                 key={link.path}
                 to={link.path}
@@ -74,10 +69,7 @@ const Header = () => {
           {/* Right Section - Language + CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher />
-            <Link
-              to="/contact"
-              className="btn btn-primary"
-            >
+            <Link to="/contact" className="btn btn-primary">
               {t('nav.cta')}
             </Link>
           </div>
@@ -118,7 +110,7 @@ const Header = () => {
           }`}
         >
           <div className="flex flex-col space-y-1 pt-4">
-            {navLinks.map((link) => (
+            {navLinks.map(link => (
               <Link
                 key={link.path}
                 to={link.path}

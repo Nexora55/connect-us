@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section, Container, Button, Card, Badge } from '../components/ui';
 
 const HomePage = () => {
@@ -7,7 +6,7 @@ const HomePage = () => {
       {/* Section 1: Hero */}
       <Section
         padding="none"
-        background="fire"
+        background="dark"
         className="relative min-h-screen flex items-center overflow-hidden"
       >
         {/* Background overlay */}
@@ -85,7 +84,7 @@ const HomePage = () => {
                 key={index}
                 variant="hover"
                 className="text-center group animate-scale-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-4xl mb-3 group-hover:scale-110 transition-transform">
                   {stat.icon}
@@ -156,7 +155,7 @@ const HomePage = () => {
                 variant="hover"
                 to={service.link}
                 className="group relative overflow-hidden animate-slide-up"
-                style={{ animationDelay: `${index * 150}ms` }}
+                // style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div
                   className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${service.color} opacity-10 rounded-full blur-2xl group-hover:opacity-20 transition-opacity`}
@@ -253,7 +252,7 @@ const HomePage = () => {
                 variant="hover"
                 to="/portfolio"
                 className="group overflow-hidden animate-slide-up"
-                style={{ animationDelay: `${index * 150}ms` }}
+                // style={{ animationDelay: `${index * 150}ms` }}
               >
                 {/* Project Image */}
                 <div className="aspect-video bg-gradient-to-br from-primary-100 to-secondary-100 rounded-lg mb-4 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform overflow-hidden">
@@ -315,7 +314,7 @@ const HomePage = () => {
               <div
                 key={index}
                 className="flex flex-col items-center justify-center p-6 bg-white rounded-xl hover:shadow-lg transition-all duration-200 group animate-scale-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-4xl mb-2 group-hover:scale-110 transition-transform">
                   {tech.icon}
@@ -348,7 +347,7 @@ const HomePage = () => {
 
       {/* Section 6: CTA lớn */}
       <Section
-        background="fire"
+        background="dark"
         padding="lg"
         className="relative overflow-hidden"
       >
