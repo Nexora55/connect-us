@@ -9,7 +9,6 @@ import {
   FaFilm,
   FaGraduationCap,
   FaTruck,
-  FaChartLine,
   FaCheckCircle,
 } from 'react-icons/fa';
 
@@ -55,6 +54,15 @@ const IndustriesPage = () => {
     },
   ];
 
+  const expertiseItems = [
+    { key: 'domain', icon: '🎯' },
+    { key: 'compliance', icon: '🔒' },
+    { key: 'track', icon: '📈' },
+    { key: 'speed', icon: '⚡' },
+    { key: 'partnership', icon: '🤝' },
+    { key: 'standards', icon: '🌍' },
+  ];
+
   return (
     <>
       {/* Hero Section */}
@@ -66,7 +74,7 @@ const IndustriesPage = () => {
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6">
               {t('industries.hero.title')}{' '}
-              <span className="gradient-brand">
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 {t('industries.hero.titleHighlight')}
               </span>
             </h1>
@@ -153,7 +161,7 @@ const IndustriesPage = () => {
 
                     <div className="mt-6">
                       <Button variant="outline" size="sm">
-                        Learn More
+                        {t('industries.learnMore')}
                       </Button>
                     </div>
                   </Card>
@@ -169,10 +177,10 @@ const IndustriesPage = () => {
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '130+', label: 'Industry Projects' },
-              { number: '6', label: 'Sectors Served' },
-              { number: '20+', label: 'Countries' },
-              { number: '98%', label: 'Success Rate' },
+              { key: 'projects', labelKey: 'projectsLabel' },
+              { key: 'sectors', labelKey: 'sectorsLabel' },
+              { key: 'countries', labelKey: 'countriesLabel' },
+              { key: 'success', labelKey: 'successLabel' },
             ].map((stat, index) => (
               <Card
                 key={index}
@@ -180,9 +188,11 @@ const IndustriesPage = () => {
                 className="text-center animate-scale-in"
               >
                 <div className="text-4xl font-bold text-secondary-600 mb-2">
-                  {stat.number}
+                  {t(`industries.stats.${stat.key}`)}
                 </div>
-                <div className="text-neutral-600">{stat.label}</div>
+                <div className="text-neutral-600">
+                  {t(`industries.stats.${stat.labelKey}`)}
+                </div>
               </Card>
             ))}
           </div>
@@ -194,53 +204,15 @@ const IndustriesPage = () => {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
-              Industry-Specific Expertise
+              {t('industries.expertise.title')}
             </h2>
             <p className="text-neutral-600 text-lg max-w-3xl mx-auto">
-              We don't just build software - we understand your industry's unique
-              challenges and opportunities
+              {t('industries.expertise.subtitle')}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: '🎯',
-                title: 'Domain Knowledge',
-                description:
-                  'Deep understanding of industry-specific regulations, workflows, and best practices',
-              },
-              {
-                icon: '🔒',
-                title: 'Compliance & Security',
-                description:
-                  'Built-in compliance with industry standards (HIPAA, PCI-DSS, SOC 2, etc.)',
-              },
-              {
-                icon: '📈',
-                title: 'Proven Track Record',
-                description:
-                  'Successfully delivered solutions across multiple verticals with measurable ROI',
-              },
-              {
-                icon: '⚡',
-                title: 'Fast Time-to-Market',
-                description:
-                  'Industry templates and accelerators reduce development time by 40%',
-              },
-              {
-                icon: '🤝',
-                title: 'Strategic Partnership',
-                description:
-                  'Long-term collaboration with continuous improvement and innovation',
-              },
-              {
-                icon: '🌍',
-                title: 'Global Standards',
-                description:
-                  'International quality standards with local market expertise',
-              },
-            ].map((item, index) => (
+            {expertiseItems.map((item, index) => (
               <Card
                 key={index}
                 variant="hover"
@@ -250,10 +222,10 @@ const IndustriesPage = () => {
                   {item.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-neutral-900 mb-3">
-                  {item.title}
+                  {t(`industries.expertise.${item.key}.title`)}
                 </h3>
                 <p className="text-neutral-600 leading-relaxed">
-                  {item.description}
+                  {t(`industries.expertise.${item.key}.description`)}
                 </p>
               </Card>
             ))}

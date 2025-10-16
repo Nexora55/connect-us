@@ -362,7 +362,46 @@
       "subtitle": "Hãy thảo luận về cách chuyên môn của chúng tôi có thể tăng tốc hành trình chuyển đổi số của bạn.",
       "ctaPrimary": "Đặt Lịch Tư Vấn",
       "ctaSecondary": "Xem Case Study"
-    }
+    },
+    "stats": {
+      "projects": "130+",
+      "projectsLabel": "Dự Án Ngành",
+      "sectors": "6",
+      "sectorsLabel": "Lĩnh Vực Phục Vụ",
+      "countries": "20+",
+      "countriesLabel": "Quốc Gia",
+      "success": "98%",
+      "successLabel": "Tỷ Lệ Thành Công"
+    },
+    "expertise": {
+      "title": "Chuyên Môn Ngành Chuyên Sâu",
+      "subtitle": "Chúng tôi không chỉ xây dựng phần mềm - chúng tôi hiểu thách thức và cơ hội riêng biệt của từng ngành",
+      "domain": {
+        "title": "Kiến Thức Chuyên Sâu",
+        "description": "Hiểu biết sâu về quy định, quy trình và best practices đặc thù từng ngành"
+      },
+      "compliance": {
+        "title": "Tuân Thủ & Bảo Mật",
+        "description": "Tuân thủ tích hợp với các tiêu chuẩn ngành (HIPAA, PCI-DSS, SOC 2, v.v.)"
+      },
+      "track": {
+        "title": "Thành Tích Đã Chứng Minh",
+        "description": "Triển khai thành công giải pháp đa ngành với ROI đo lường được"
+      },
+      "speed": {
+        "title": "Ra Mắt Nhanh Chóng",
+        "description": "Template và accelerator ngành giảm 40% thời gian phát triển"
+      },
+      "partnership": {
+        "title": "Đối Tác Chiến Lược",
+        "description": "Hợp tác dài hạn với cải tiến liên tục và đổi mới sáng tạo"
+      },
+      "standards": {
+        "title": "Chuẩn Quốc Tế",
+        "description": "Tiêu chuẩn chất lượng quốc tế kết hợp chuyên môn thị trường địa phương"
+      }
+    },
+    "learnMore": "Tìm Hiểu Thêm"
   },
   "careers": {
     "hero": {

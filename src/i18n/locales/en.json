@@ -294,7 +294,46 @@
       "subtitle": "Let's discuss how our expertise can accelerate your digital transformation journey.",
       "ctaPrimary": "Schedule Consultation",
       "ctaSecondary": "View Case Studies"
-    }
+    },
+    "stats": {
+      "projects": "130+",
+      "projectsLabel": "Industry Projects",
+      "sectors": "6",
+      "sectorsLabel": "Sectors Served",
+      "countries": "20+",
+      "countriesLabel": "Countries",
+      "success": "98%",
+      "successLabel": "Success Rate"
+    },
+    "expertise": {
+      "title": "Industry-Specific Expertise",
+      "subtitle": "We don't just build software - we understand your industry's unique challenges and opportunities",
+      "domain": {
+        "title": "Domain Knowledge",
+        "description": "Deep understanding of industry-specific regulations, workflows, and best practices"
+      },
+      "compliance": {
+        "title": "Compliance & Security",
+        "description": "Built-in compliance with industry standards (HIPAA, PCI-DSS, SOC 2, etc.)"
+      },
+      "track": {
+        "title": "Proven Track Record",
+        "description": "Successfully delivered solutions across multiple verticals with measurable ROI"
+      },
+      "speed": {
+        "title": "Fast Time-to-Market",
+        "description": "Industry templates and accelerators reduce development time by 40%"
+      },
+      "partnership": {
+        "title": "Strategic Partnership",
+        "description": "Long-term collaboration with continuous improvement and innovation"
+      },
+      "standards": {
+        "title": "Global Standards",
+        "description": "International quality standards with local market expertise"
+      }
+    },
+    "learnMore": "Learn More"
   },
   "careers": {
     "hero": {

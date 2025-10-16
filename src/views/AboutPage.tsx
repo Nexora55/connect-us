@@ -123,7 +123,7 @@ const AboutPage = () => {
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6">
               Chúng tôi xây dựng{' '}
-              <span className="gradient-fire">tương lai số</span>
+              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">tương lai số</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
               ConnectUs là đối tác công nghệ đáng tin cậy, giúp doanh nghiệp
@@ -234,7 +234,7 @@ const AboutPage = () => {
                   >
                     {/* Year Badge */}
                     <div className="flex-shrink-0">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-white font-bold shadow-glow-orange">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-white font-bold shadow-xl">
                         {item.year}
                       </div>
                     </div>

@@ -294,7 +294,46 @@
       "subtitle": "우리의 전문 지식이 귀하의 디지털 전환 여정을 가속화하는 방법을 논의하겠습니다.",
       "ctaPrimary": "상담 예약",
       "ctaSecondary": "사례 연구 보기"
-    }
+    },
+    "stats": {
+      "projects": "130+",
+      "projectsLabel": "산업 프로젝트",
+      "sectors": "6",
+      "sectorsLabel": "서비스 부문",
+      "countries": "20+",
+      "countriesLabel": "국가",
+      "success": "98%",
+      "successLabel": "성공률"
+    },
+    "expertise": {
+      "title": "산업별 전문 지식",
+      "subtitle": "우리는 단순히 소프트웨어를 구축하는 것이 아니라 귀하 산업의 고유한 과제와 기회를 이해합니다",
+      "domain": {
+        "title": "도메인 지식",
+        "description": "산업별 규정, 워크플로우 및 모범 사례에 대한 깊은 이해"
+      },
+      "compliance": {
+        "title": "규정 준수 및 보안",
+        "description": "산업 표준(HIPAA, PCI-DSS, SOC 2 등)에 대한 내장 규정 준수"
+      },
+      "track": {
+        "title": "입증된 실적",
+        "description": "측정 가능한 ROI로 여러 산업 분야에 걸쳐 성공적으로 솔루션 제공"
+      },
+      "speed": {
+        "title": "빠른 출시 시간",
+        "description": "산업 템플릿 및 가속기로 개발 시간 40% 단축"
+      },
+      "partnership": {
+        "title": "전략적 파트너십",
+        "description": "지속적인 개선과 혁신을 통한 장기적인 협력"
+      },
+      "standards": {
+        "title": "글로벌 표준",
+        "description": "지역 시장 전문 지식과 함께하는 국제 품질 표준"
+      }
+    },
+    "learnMore": "자세히 알아보기"
   },
   "careers": {
     "hero": {

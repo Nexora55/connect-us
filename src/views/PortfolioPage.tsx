@@ -185,7 +185,7 @@ const PortfolioPage = () => {
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6">
               Dự án tiêu biểu của{' '}
-              <span className="gradient-fire">chúng tôi</span>
+              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">chúng tôi</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
               Những sản phẩm đã giúp khách hàng tăng trưởng vượt bậc và chuyển
@@ -206,7 +206,7 @@ const PortfolioPage = () => {
                 onClick={() => setSelectedFilter(filter.id)}
                 className={`px-6 py-2 rounded-full font-medium transition-all duration-200 ${
                   selectedFilter === filter.id
-                    ? 'bg-primary-600 text-white shadow-glow-orange'
+                    ? 'bg-primary-600 text-white shadow-xl'
                     : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                 }`}
               >
@@ -294,7 +294,7 @@ const PortfolioPage = () => {
                 // style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-4xl mb-2">{stat.icon}</div>
-                <div className="text-4xl font-bold gradient-fire mb-1">
+                <div className="text-4xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent mb-1">
                   {stat.number}
                 </div>
                 <div className="text-sm text-neutral-600">{stat.label}</div>
@@ -324,7 +324,7 @@ const PortfolioPage = () => {
               <Button
                 to="/contact"
                 size="lg"
-                className="bg-white text-primary-600 hover:bg-neutral-100 shadow-glow-orange-lg"
+                className="bg-white text-primary-600 hover:bg-neutral-100 shadow-xl"
               >
                 Bắt đầu dự án
               </Button>

@@ -103,7 +103,7 @@ const ContactPage = () => {
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6">
               Hãy cùng nhau tạo ra{' '}
-              <span className="gradient-fire">điều tuyệt vời</span>
+              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">điều tuyệt vời</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
               Chúng tôi luôn sẵn sàng lắng nghe và tư vấn miễn phí cho dự án của bạn. Hãy chia sẻ ý tưởng và để chúng tôi giúp bạn hiện thực hóa nó.

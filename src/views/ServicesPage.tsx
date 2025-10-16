@@ -73,7 +73,7 @@ const ServicesPage = () => {
         'Recommendation Systems',
       ],
       category: 'development',
-      gradient: 'from-fire-500 to-fire-700',
+      gradient: 'from-orange-500 to-red-500',
     },
     {
       id: 'consulting',
@@ -88,7 +88,7 @@ const ServicesPage = () => {
         'Performance Optimization',
       ],
       category: 'consulting',
-      gradient: 'from-ember-500 to-ember-700',
+      gradient: 'from-red-500 to-pink-500',
     },
     {
       id: 'ux',
@@ -171,7 +171,7 @@ const ServicesPage = () => {
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6">
               Giải pháp toàn diện cho{' '}
-              <span className="gradient-fire">doanh nghiệp</span>
+              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">doanh nghiệp</span>
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">
               Từ ý tưởng đến triển khai, chúng tôi đồng hành cùng bạn trong mọi
@@ -193,7 +193,7 @@ const ServicesPage = () => {
                 onClick={() => setSelectedFilter(filter.id)}
                 className={`px-6 py-2 rounded-full font-medium transition-all duration-200 ${
                   selectedFilter === filter.id
-                    ? 'bg-primary-600 text-white shadow-glow-orange'
+                    ? 'bg-primary-600 text-white shadow-lg'
                     : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                 }`}
               >
@@ -285,7 +285,7 @@ const ServicesPage = () => {
                 variant={tier.recommended ? 'hover' : 'bordered'}
                 className={`relative ${
                   tier.recommended
-                    ? 'ring-2 ring-primary-500 shadow-glow-orange'
+                    ? 'ring-2 ring-primary-500 shadow-xl'
                     : ''
                 }`}
               >
@@ -301,7 +301,7 @@ const ServicesPage = () => {
                   <h3 className="text-2xl font-bold text-neutral-900 mb-2">
                     {tier.name}
                   </h3>
-                  <div className="text-4xl font-bold gradient-fire mb-2">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent mb-2">
                     {tier.price}
                   </div>
                   <p className="text-neutral-600 text-sm">{tier.description}</p>
@@ -393,7 +393,7 @@ const ServicesPage = () => {
                 // style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="text-center">
-                  <div className="text-6xl font-bold gradient-fire mb-4 opacity-20">
+                  <div className="text-6xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent mb-4 opacity-20">
                     {process.step}
                   </div>
                   <h3 className="text-xl font-semibold text-neutral-900 mb-3">
@@ -434,7 +434,7 @@ const ServicesPage = () => {
               <Button
                 to="/contact"
                 size="lg"
-                className="bg-white text-primary-600 hover:bg-neutral-100 shadow-glow-orange-lg"
+                className="bg-white text-primary-600 hover:bg-neutral-100 shadow-xl"
               >
                 Liên hệ ngay
               </Button>
