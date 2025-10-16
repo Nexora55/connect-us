@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "portfolio": "Dự án",
+    "about": "Về chúng tôi",
+    "team": "Đội ngũ",
+    "industries": "Ngành",
+    "careers": "Tuyển dụng",
+    "contact": "Liên hệ",
+    "cta": "Bắt đầu dự án"
+  },
+  "common": {
+    "learnMore": "Tìm hiểu thêm",
+    "viewAll": "Xem tất cả",
+    "contactUs": "Liên hệ với chúng tôi",
+    "getStarted": "Bắt đầu ngay"
+  },
+  "home": {
+    "hero": {
+      "badge": "Đối tác công nghệ đáng tin cậy",
+      "title": "Tăng tốc đổi mới cùng",
+      "titleHighlight": "giải pháp công nghệ chuyên sâu",
+      "subtitle": "EXO xây dựng giải pháp E-commerce, FinTech, Streaming Platform, AI Agent và MAS - giúp doanh nghiệp vượt trội trong kỷ nguyên số.",
+      "ctaPrimary": "Khám phá dịch vụ",
+      "ctaSecondary": "Xem dự án tiêu biểu"
+    },
+    "stats": {
+      "title": "Con số ấn tượng",
+      "subtitle": "Được tin tưởng bởi các doanh nghiệp hàng đầu toàn cầu",
+      "projects": "Dự án hoàn thành",
+      "countries": "Quốc gia",
+      "experts": "Chuyên gia",
+      "technologies": "Công nghệ",
+      "satisfaction": "Khách hài lòng",
+      "support": "Hỗ trợ"
+    },
+    "services": {
+      "badge": "Dịch vụ",
+      "title": "Giải pháp toàn diện cho doanh nghiệp",
+      "subtitle": "Từ ý tưởng đến triển khai, chúng tôi đồng hành cùng bạn trong mọi giai đoạn chuyển đổi số",
+      "ecommerce": {
+        "title": "E-Commerce Platform",
+        "description": "Xây dựng nền tảng thương mại điện tử đa kênh, tối ưu chuyển đổi"
+      },
+      "fintech": {
+        "title": "FinTech Solutions",
+        "description": "Giải pháp tài chính số, payment gateway và banking applications"
+      },
+      "streaming": {
+        "title": "Streaming Platform",
+        "description": "Nền tảng live streaming và video on-demand scalable"
+      },
+      "ai": {
+        "title": "AI Agent & Prompting",
+        "description": "Tích hợp AI Agent, chatbot thông minh và prompt engineering"
+      },
+      "viewAll": "Xem tất cả dịch vụ"
+    },
+    "portfolio": {
+      "badge": "Portfolio",
+      "title": "Dự án tiêu biểu",
+      "subtitle": "Những sản phẩm đã giúp khách hàng tăng trưởng vượt bậc",
+      "viewAll": "Xem tất cả dự án"
+    },
+    "techStack": {
+      "title": "Công nghệ chúng tôi sử dụng",
+      "subtitle": "Luôn cập nhật và sử dụng những công nghệ tiên tiến nhất",
+      "clients": "Được tin tưởng bởi các doanh nghiệp hàng đầu"
+    },
+    "cta": {
+      "title": "Sẵn sàng biến ý tưởng thành",
+      "titleHighlight": "hiện thực?",
+      "subtitle": "Hãy để chúng tôi tư vấn miễn phí về giải pháp công nghệ phù hợp nhất cho doanh nghiệp của bạn.",
+      "ctaPrimary": "Liên hệ tư vấn ngay",
+      "ctaSecondary": "Tìm hiểu thêm",
+      "benefit1": "Tư vấn miễn phí",
+      "benefit2": "Không ràng buộc",
+      "benefit3": "Phản hồi trong 24h"
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Dịch vụ",
+      "title": "Giải pháp công nghệ",
+      "titleHighlight": "cho mọi nhu cầu",
+      "subtitle": "Từ E-Commerce đến AI, chúng tôi cung cấp giải pháp end-to-end giúp doanh nghiệp chuyển đổi số thành công"
+    },
+    "filterAll": "Tất cả",
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "desc": "Nền tảng thương mại điện tử toàn diện",
+      "features": ["Multi-channel Integration", "Payment Gateway", "Inventory Management", "Marketing Automation", "Analytics Dashboard"]
+    },
+    "fintech": {
+      "title": "FinTech Solutions",
+      "desc": "Giải pháp tài chính số an toàn",
+      "features": ["Digital Banking", "Payment Processing", "Blockchain Integration", "Fraud Detection", "Compliance & Security"]
+    },
+    "streaming": {
+      "title": "Streaming Platform",
+      "desc": "Nền tảng phát trực tuyến mạnh mẽ",
+      "features": ["Live Streaming", "VOD Management", "CDN Integration", "Multi-bitrate Encoding", "Analytics & Monetization"]
+    },
+    "ai": {
+      "title": "AI & Automation",
+      "desc": "Tích hợp AI và tự động hóa quy trình",
+      "features": ["AI Chatbot", "Prompt Engineering", "Machine Learning Models", "Process Automation", "Predictive Analytics"]
+    },
+    "process": {
+      "title": "Quy trình làm việc chuyên nghiệp",
+      "subtitle": "Phương pháp Agile đảm bảo dự án đúng tiến độ"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "badge": "Portfolio",
+      "title": "Dự án",
+      "titleHighlight": "đã thực hiện",
+      "subtitle": "Những sản phẩm đã giúp khách hàng đạt được mục tiêu kinh doanh và tăng trưởng vượt bậc"
+    },
+    "filterAll": "Tất cả"
+  },
+  "about": {
+    "hero": {
+      "badge": "Về chúng tôi",
+      "title": "Xây dựng tương lai số cùng",
+      "titleHighlight": "EXO",
+      "subtitle": "Chúng tôi là đối tác công nghệ tin cậy, giúp doanh nghiệp chuyển đổi số thành công với đội ngũ chuyên gia hàng đầu"
+    },
+    "mission": {
+      "title": "Sứ mệnh",
+      "content": "Trao quyền cho doanh nghiệp bằng công nghệ tiên tiến, giúp họ đổi mới nhanh chóng và tăng trưởng bền vững trong kỷ nguyên số"
+    },
+    "vision": {
+      "title": "Tầm nhìn",
+      "content": "Trở thành đối tác công nghệ hàng đầu khu vực, được tin tưởng bởi khách hàng và tự hào bởi đội ngũ"
+    },
+    "values": {
+      "title": "Giá trị cốt lõi",
+      "subtitle": "Những gì định hình văn hóa EXO"
+    }
+  },
+  "team": {
+    "hero": {
+      "badge": "Đội ngũ",
+      "title": "Gặp gỡ đội ngũ",
+      "titleHighlight": "chuyên gia",
+      "subtitle": "50+ chuyên gia hàng đầu với kinh nghiệm 10+ năm trong công nghệ và quản lý dự án"
+    },
+    "leadership": {
+      "title": "Ban Lãnh Đạo",
+      "subtitle": "Đội ngũ quản lý cấp cao dẫn dắt tầm nhìn và chiến lược"
+    },
+    "management": {
+      "title": "Quản Lý Cấp Trung",
+      "subtitle": "Project Managers và Team Leads điều phối dự án"
+    },
+    "technical": {
+      "title": "Đội Ngũ Kỹ Thuật",
+      "subtitle": "Engineers và Developers xây dựng sản phẩm"
+    },
+    "qa": {
+      "title": "Đội Kiểm Thử",
+      "subtitle": "QA Engineers đảm bảo chất lượng sản phẩm"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Liên hệ",
+      "title": "Bắt đầu dự án",
+      "titleHighlight": "của bạn",
+      "subtitle": "Chia sẻ ý tưởng và để chúng tôi tư vấn giải pháp công nghệ phù hợp nhất"
+    },
+    "form": {
+      "title": "Gửi yêu cầu tư vấn",
+      "name": "Họ và tên",
+      "email": "Email",
+      "company": "Công ty",
+      "phone": "Số điện thoại",
+      "service": "Dịch vụ quan tâm",
+      "budget": "Ngân sách dự kiến",
+      "message": "Mô tả dự án",
+      "submit": "Gửi yêu cầu",
+      "success": "Cảm ơn! Chúng tôi sẽ liên hệ trong 24h"
+    }
+  },
+  "footer": {
+    "description": "Đối tác công nghệ đáng tin cậy, giúp doanh nghiệp tăng tốc đổi mới và chuyển đổi số thành công.",
+    "services": "Dịch vụ",
+    "company": "Công ty",
+    "resources": "Tài nguyên",
+    "newsletter": "Nhận tin tức",
+    "newsletterDesc": "Cập nhật những xu hướng công nghệ mới nhất.",
+    "subscribe": "Đăng ký",
+    "rights": "All rights reserved.",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng"
+  }
+}

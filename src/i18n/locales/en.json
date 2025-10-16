@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "team": "Team",
+    "industries": "Industries",
+    "careers": "Careers",
+    "contact": "Contact",
+    "cta": "Start Project"
+  },
+  "home": {
+    "hero": {
+      "badge": "Trusted Technology Partner",
+      "title": "Accelerate Innovation with",
+      "titleHighlight": "Deep Tech Solutions",
+      "subtitle": "EXO builds E-commerce, FinTech, Streaming Platform, AI Agent and MAS solutions - helping businesses excel in the digital era.",
+      "ctaPrimary": "Explore Services",
+      "ctaSecondary": "View Featured Projects"
+    },
+    "stats": {
+      "title": "Impressive Numbers",
+      "subtitle": "Trusted by leading businesses worldwide",
+      "projects": "Projects Completed",
+      "countries": "Countries",
+      "experts": "Experts",
+      "technologies": "Technologies",
+      "satisfaction": "Client Satisfaction",
+      "support": "Support"
+    },
+    "services": {
+      "badge": "Services",
+      "title": "Comprehensive Solutions for Businesses",
+      "subtitle": "From idea to deployment, we accompany you through every stage of digital transformation",
+      "ecommerce": {
+        "title": "E-Commerce Platform",
+        "description": "Build multi-channel e-commerce platforms, optimized for conversion"
+      },
+      "fintech": {
+        "title": "FinTech Solutions",
+        "description": "Digital finance solutions, payment gateways and banking applications"
+      },
+      "streaming": {
+        "title": "Streaming Platform",
+        "description": "Scalable live streaming and video on-demand platforms"
+      },
+      "ai": {
+        "title": "AI Agent & Prompting",
+        "description": "Integrate AI Agents, smart chatbots and prompt engineering"
+      },
+      "viewAll": "View All Services"
+    },
+    "portfolio": {
+      "badge": "Portfolio",
+      "title": "Featured Projects",
+      "subtitle": "Products that have helped clients achieve exceptional growth",
+      "viewAll": "View All Projects"
+    },
+    "techStack": {
+      "title": "Technologies We Use",
+      "subtitle": "Always updated with the most advanced technologies",
+      "clients": "Trusted by leading businesses"
+    },
+    "cta": {
+      "title": "Ready to turn your idea into",
+      "titleHighlight": "reality?",
+      "subtitle": "Let us provide free consultation on the most suitable technology solutions for your business.",
+      "ctaPrimary": "Contact Us Now",
+      "ctaSecondary": "Learn More",
+      "benefit1": "Free Consultation",
+      "benefit2": "No Commitment",
+      "benefit3": "24h Response"
+    }
+  },
+  "footer": {
+    "description": "Trusted technology partner, helping businesses accelerate innovation and digital transformation successfully.",
+    "services": "Services",
+    "company": "Company",
+    "resources": "Resources",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Stay updated with the latest tech trends.",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
